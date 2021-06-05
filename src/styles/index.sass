@@ -1,0 +1,20 @@
+$menu-item-active-background-color: unset
+$menu-item-active-color: hsl(0, 0%, 29%)
+
+@import "./variables/colors"
+@import "./blocks/slider"
+@import "./blocks/social"
+@import "./blocks/showcase"
+@import "../../node_modules/slick-carousel/slick/slick.css"
+@import "../../node_modules/slick-carousel/slick/slick-theme.css"
+@import "../../node_modules/bulma/bulma.sass"
+@import "../../node_modules/bulmaswatch/litera/_variables.scss"
+@import "../../node_modules/bulmaswatch/litera/_overrides.scss"
+
+#view-container
+  min-height: 100vh
+
+ul.menu-list
+  li
+    a.is-active
+      text-decoration: underline
